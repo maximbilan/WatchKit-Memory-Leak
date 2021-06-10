@@ -6,3 +6,4 @@ if you're passing more than 1 context with the same object through `reloadRootPa
 let context = Context(name: "context")
 WKInterfaceController.reloadRootPageControllers(withNames: ["first", "second"], contexts: [context, context], orientation: .horizontal, pageIndex: 0)
 ```
+![Demo!](demo1.png)
